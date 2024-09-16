@@ -1,0 +1,159 @@
+cd
+ls
+ls -la
+echo $HOME
+man cp
+ssh-keygen
+ls -la
+cd .ssh/
+ls -la
+cat id_rsa.pub
+cd
+sudo apt install git
+git --version
+git clone https://github.com/Flor-Arando/TP1_AySO.git
+cd TP1_AySO/
+ls -la
+cd
+cp README TP1_AySO/
+cd TP1_AySO/
+ls -la
+git add README
+git commit -m "primer archivo"
+git config --global user.name Flor-Arando
+git commit -m "primer archivo"
+git push -u origin master
+cat README
+cat <<FIN>> README
+hola
+FIN
+
+git status
+git add README
+git commit -m "se edita archivo"
+git push origin main
+git push origin master
+cat <<FIN>> README
+Florencia
+FIN
+
+git commit -m "se cambia archivo"
+git push origin master
+git status
+git add README
+git status
+git commit -m "se cambia archivo"
+git push origin master
+cat <<FIN> README
+Romina
+FIN
+
+git add README
+git commit -m "cambio de palabras"
+git push origin master
+vagrant exit
+vagrant halt
+cd
+vagrant halt
+halt
+man
+sudo vagrant halt
+cd
+exit
+man wc
+tail -n 2 README
+exit
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone git@github.com:Flor-Arando/TP_AySO.git
+rm repogit
+ls -la
+cd
+ls -la
+cd repogit/
+ls -la
+git clone git@github.com:Flor-Arando/TP_AySO.git
+ls -la
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global user.email "arando.florencia@gmail.com"
+git config --global user.name "Flor-Arando"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cd
+ls -la
+cat cpuinfo
+grep -i proce /proc/cpuinfo
+cat/proc/info
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | grep -i proce | head -n1
+cat /proc/cpuinfo | grep -i proce | awk '{print}'
+ls -la
+cd repogit/TP_AySO/
+ls -la
+cat datos_usuario.txt
+cat << EOF
+processor	: 0
+EOF
+
+cat datos_usuario.txt
+cat <<FIN>> datos_usuario.txt 
+processor	: 0
+FIN
+
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+cat <<FIN> lista_ordenada
+FIN
+
+cat lista_ordenada
+man grep
+man grep order according to a given key
+grep -v "nologin" /etc/passwd
+man grep
+man sort
+man head
+man grep
+grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n 10 > lista_ordenada
+cat lista_ordenada
+grep -v "nologin" /etc/passwd
+grep /etc/passwd
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man dump traffic
+tcpdump
+sudo tcpdump
+cat <<FIN>> comando_dump_net
+tcpdump
+sudo tcpdump
+FIN
+
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> README.md
+Alumno: Florencia
+División: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+nano README.md 
+cat README.md 
+git add .
+git commit -m "docs: agregar información del alumno al README.md"
+history -a
